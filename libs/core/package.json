@@ -1,0 +1,22 @@
+{
+    "name": "@animalus/core",
+    "version": "1.0.0",
+    "peerDependencies": {
+        "@angular/cdk": "^19.2.6",
+        "@angular/common": "^19.2.3",
+        "@angular/core": "^19.2.3",
+        "@angular/forms": "^19.2.3",
+        "@angular/material": "^19.2.6",
+        "@angular/material-luxon-adapter": "^19.2.6",
+        "@angular/platform-browser": "^19.2.3",
+        "@angular/router": "^19.2.3",
+        "@types/showdown": "^2.0.6",
+        "mime": "^4.0.6",
+        "showdown": "^2.1.0",
+        "showdown-target-blank": "^1.0.2",
+        "ag-grid-angular": "^33.2.1",
+        "ag-grid-community": "^33.2.1",
+        "rxjs": "^7.8.2",
+        "yaml": "^2.7.0"
+    }
+}

@@ -1,0 +1,256 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestApp - aucore",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.TestApp",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "TestAUApp - aucore",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.TestAUApp",
+            "projectName": "auroot-core",
+            "args": "-a critterspot"
+        },
+        {
+            "type": "java",
+            "name": "TestDbConnectionPool",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.TestDbConnectionPool",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "TestEmailApp",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.TestEmailApp",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "TestTimezoneApp",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.TestTimezoneApp",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "CheckMediaExists",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.CheckMediaExists",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "ClearBucket",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.ClearBucket",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "CreateMissingThumbs",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.CreateMissingThumbs",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "DeleteMedia",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.DeleteMedia",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "DownloadMedia",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.DownloadMedia",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "DownloadS3",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.DownloadS3",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "MoveMedia",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.MoveMedia",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "ReadExifData",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.ReadExifData",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "ReadImageMeta",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.ReadImageMeta",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "ReadMissingExifData",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.ReadMissingExifData",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "ResizeMedia",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.media.ResizeMedia",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "MoveUserAvatar",
+            "request": "launch",
+            "mainClass": "com.animalus.core.admin.user.MoveUserAvatar",
+            "projectName": "auroot-core"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.animalus.App",
+            "projectName": "auzooniverse"
+        },
+        {
+            "type": "java",
+            "name": "CSTestApp",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.CSTestApp",
+            "vmArgs": "-Xms512M -Xms1024M -Dlogback.configurationFile=/opt/critterspot/logbackCL.xml --add-opens java.base/java.time=ALL-UNNAMED",
+            "projectName": "critterspot-admin",
+            "args": "/opt/critterspot/conf"
+        },
+        {
+            "type": "java",
+            "name": "UpdateTimezones",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.encounter.UpdateTimezones",
+            "projectName": "critterspot-admin"
+        },
+        {
+            "type": "java",
+            "name": "DarwinCoreExportApp",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.export.DarwinCoreExportApp",
+            "projectName": "critterspot-admin"
+        },
+        {
+            "type": "java",
+            "name": "LoadExternalRefset",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.id.LoadExternalRefset",
+            "projectName": "critterspot-admin",
+            "args": "-r humpbacks"
+        },
+        {
+            "type": "java",
+            "name": "CreateRefset",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.id.CreateRefset",
+            "projectName": "critterspot-admin",
+            "args": "-t tmp_partial_ids"
+        },
+        {
+            "type": "java",
+            "name": "TmpConvertRefSetMedia",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.id.TmpConvertRefSetMedia",
+            "projectName": "critterspot-admin"
+        },
+        {
+            "type": "java",
+            "name": "TmpS3FileFix",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.id.TmpS3FileFix",
+            "projectName": "critterspot-admin"
+        },
+        {
+            "type": "java",
+            "name": "DatasheetResponseDeleteApp",
+            "request": "launch",
+            "mainClass": "com.animalus.scidir.admin.DatasheetResponseDeleteApp",
+            "projectName": "critterspot-admin"
+        },
+        {
+            "type": "java",
+            "name": "IceWatchUploadApp",
+            "request": "launch",
+            "mainClass": "com.animalus.scidir.admin.IceWatchUploadApp",
+            "projectName": "critterspot-admin"
+        },
+        {
+            "type": "java",
+            "name": "RebuildLocations",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.encounter.RebuildLocations",
+            "projectName": "critterspot-core"
+        },
+        {
+            "type": "java",
+            "name": "ReadCsv",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.importer.ReadCsv",
+            "projectName": "critterspot-core"
+        },
+        {
+            "type": "java",
+            "name": "CritterspotBootApplication",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.http.CritterspotBootApplication",
+            "projectName": "critterspot-http",
+            "vmArgs": "-Xms512M -Xms1024M -Dlogging.config=/opt/critterspot/logback.xml --add-opens java.base/java.time=ALL-UNNAMED",
+            "args": "/opt/critterspot/conf"
+        },
+        {
+            "type": "java",
+            "name": "WhaleIDIdentify",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.admin.id.WhaleIDIdentify",
+            "projectName": "critterspot-admin",
+            "vmArgs": "-Dlogback.configurationFile=/opt/critterspot/logbackCL.xml",
+            "args": "-C /opt/critterspot/conf -s humpbacks -m 1268835,1268836"
+        },
+        {
+            "type": "java",
+            "name": "Critterspot2BootApplication",
+            "request": "launch",
+            "mainClass": "com.animalus.critterspot.http.CritterspotBootApplication",
+            "projectName": "critterspot-http",
+            "vmArgs": "-Xms512M -Xms1024M -Dlogging.config=/opt/critterspot/logback.xml --add-opens java.base/java.time=ALL-UNNAMED",
+            "args": "/opt/critterspot2/conf"
+        },
+        {
+            "type": "java",
+            "name": "TestApp(2)",
+            "request": "launch",
+            "mainClass": "net.crowmagnumb.TestApp",
+            "projectName": "crowlang"
+        }
+    ]
+}

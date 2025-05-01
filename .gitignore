@@ -1,0 +1,21 @@
+scratchpad.md
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules/
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.angular
+.nx

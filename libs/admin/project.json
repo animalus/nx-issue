@@ -1,0 +1,38 @@
+{
+    "name": "admin",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "projectType": "library",
+    "sourceRoot": "libs/admin/src",
+    "prefix": "animalus",
+    "targets": {
+        "build": {
+            "executor": "@nx/angular:ng-packagr-lite",
+            "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+            "options": {
+                "tsConfig": "libs/admin/tsconfig.lib.json",
+                "project": "{projectRoot}/ng-package.json"
+            },
+            "configurations": {
+                "production": {
+                    "tsConfig": "{projectRoot}/tsconfig.lib.prod.json"
+                },
+                "development": {
+                    "tsConfig": "{projectRoot}/tsconfig.lib.json"
+                }
+            },
+            "defaultConfiguration": "production"
+        },
+        "test": {
+            "executor": "@nx/jest:jest",
+            "options": {
+                "jestConfig": "{projectRoot}/jest.config.ts"
+            }
+        }
+    },
+    "generators": {
+        "@schematics/angular:component": {
+            "style": "scss"
+        }
+    },
+    "tags": []
+}
