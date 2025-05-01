@@ -1,1 +1,1 @@
-export { GpsService } from "./gps.service";
+export { MyService } from "./service";
