@@ -4,12 +4,12 @@ import { BaseDirective } from "@animalus/core";
 @Injectable({
     providedIn: "root",
 })
-export class AdminService extends BaseDirective {
+export class MyService extends BaseDirective {
     constructor() {
         super();
     }
 
-    adminThing() {
-        console.log("admin thing");
+    doIt() {
+        console.log("doing it.");
     }
 }
